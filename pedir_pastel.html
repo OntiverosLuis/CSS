@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale 1.0">
+    <title>Ordene su pastel AQUI</title>
+</head>
+<body>
+    <h3>Dejenos sus datos y tomaremos su pedido</h3>
+
+    <form action="pedir_pastel.js">
+        <label for="Nombre">Danos tu Nombre</label><br>
+        <input type="text" id="Nombre" name="Nombre" placeholder="Nombre">
+        <br><br>
+
+        <label for="numero1">Numero de teléfono</label><br>
+        <input type="number" id="numero1" name="numero1">
+        <br><br>
+
+        <label for="correo1">Correo electronico</label><br>
+        <input type="email" id="correo1" name="correo1">
+        <br><br>
+
+        <p>Sabor de pastel que decea elegir:</p>
+        <input type="checkbox" name="zanahoria" id="zanahoria" value="Zanahoria">
+        <label for="zanahoria">Pastel de zanahoria</label><br>
+        <input type="checkbox" name="chocolate" id="chocolate" value="Chocolate">
+        <label for="chocolate">Pastel de chocolate</label><br>
+        <input type="checkbox" name="3 leches" id="3 leches" value="3 leches">
+        <label for="3 leches">Pastel de 3 leches</label><br>
+        <input type="checkbox" name="red velvet" id="red velvet" value="Red velvet">
+        <label for="red velvet">Pastel Red velvet</label><br>
+        <input type="checkbox" name="chocochips" id="chocochips" value="Chocochips">
+        <label for="chocochips">Pastel de chocochips</label><br>
+        <input type="checkbox" name="fresa" id="fresa" value="Fresa">
+        <label for="fresa">Pastel de fresa</label><br>
+
+        <p>¿Que tematica (decoracion)?</p>
+        <select name="tematica" id="tematica">
+            <option value="Princesas">Princesas</option>
+            <option value="Superheroes">Superheroes</option>
+            <option value="Boda">Sprite</option>
+            <option value="15años">Manzana</option>
+            <option value="Bautizmos">Sangria</option>
+            <option value="San valentin"></option>
+            <li>Princesas</li>
+            <li>Superheroes</li>
+            <li>Boda</li>
+            <li>15 años</li>
+            <li>Bautizmos</li>
+            <li>San valentin</li>
+        </select><br><br>
+
+        <br>
+        <input type="reset">
+        <input type="submit">
+
+    </form>
+</body>
